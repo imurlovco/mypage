@@ -47,3 +47,12 @@ img {
 a {
     color: aqua;
 }
+
+summary {
+    user-select: none;
+    cursor: pointer;
+}
+
+p {
+    word-break: keep-all;
+}
