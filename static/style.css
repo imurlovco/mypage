@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "GmarketSansLight";
+    src: url(fonts/GmarketSansLight.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "GmarketSansMedium";
+    src: url(fonts/GmarketSansMedium.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "GmarketSansBold";
+    src: url(fonts/GmarketSansBold.woff2) format(woff2);
+}
+
+body {
+    font-family: "GmarketSansLight";
+    background-color: #2d2d2d;
+    text-align: center;
+    color: #fff;
+    font-size: 130%;
+}
+
+button {
+    border: solid;
+    border-radius: 13px;
+    border-color: #fff;
+    border-width: 2px;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'GmarketSansMedium' !important;
+    text-shadow: 0 0 1px #000;
+    width: auto;
+    min-width: 200px;
+    height: 48px;
+    transition: all .4s ease;
+    margin: 10px;
+    cursor: pointer;
+    align-self: center;
+}
+
+img {
+    padding-top: 10px;
+}
+
+a {
+    color: aqua;
+}
